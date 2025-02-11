@@ -11,11 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .header-cont{
   display: flex;
   justify-content: space-between;
+  background-color: rgb(36, 35, 35);
 }
 .link-cont{
   display: flex;
   justify-content: space-between;
+}
+.link-cont 
+ li{
+  list-style: none;
+  
+
+}
+.link-cont li a {
+ color: white;
+ padding: 3px 5px;
+}
+.logo{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.header-cont{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link:hover a{
+  color: rgb(210, 196, 196);
+  cursor: pointer;
 }
