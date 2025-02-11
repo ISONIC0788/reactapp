@@ -44,3 +44,11 @@
     transform: rotate(360deg);
   }
 }
+.world-cont{
+  
+  background-color: gray;
+  color: white;
+  /* width: 500px; */
+  padding: 5%;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
