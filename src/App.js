@@ -32,6 +32,9 @@ function App() {
         Hi my name is ITUZE AGACYO EBEDI MELECK i'm software developer passnote Abaut solve using real world problem 
         by using technology
         </div>
+        <div>
+          <img src=''></img>
+        </div>
       </div>
     </div>
   
