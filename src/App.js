@@ -1,14 +1,16 @@
 import logo from './logo.svg';
+import wavyback from './images/blackWevy.jpg';
 import './App.css';
 
 function App() {
-  const name  = "Ebed";
+  const name  = "EBEDI";
   return (
     <div className="App">
       <header className="header-cont">
           
         <nav className='header-cont'>
-       <span className='logo'>{name} </span> 
+       <span className='logo'>&lt;{name}&gt; </span> 
+      
           <ul className='link-cont'>
             <li className='nav-link'>
               <a >Home</a>
@@ -23,19 +25,13 @@ function App() {
               <a >Contact</a>
             </li>
           </ul>
+          <button className='demo-button'> Request Demo </button>
         </nav>
       </header>
-      <div>
-        <div className='world-cont'>
-        Hi my name is ITUZE AGACYO EBEDI MELECK i'm software developer passnote Abaut solve using real world problem 
-        by using technology 
-        Hi my name is ITUZE AGACYO EBEDI MELECK i'm software developer passnote Abaut solve using real world problem 
-        by using technology
-        </div>
-        <div>
-          <img src=''></img>
-        </div>
+      <div className='cont-back-one'>
+         <img src={wavyback} className='cont-back' />
       </div>
+     
     </div>
   
   );

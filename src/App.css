@@ -46,9 +46,42 @@
 }
 .world-cont{
   
-  background-color: gray;
-  color: white;
+  /* background-color: gray; */
+  /* color: white; */
   /* width: 500px; */
   padding: 5%;
   box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.demo-button{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  backdrop-filter: blur(100px) ;
+  border-radius: 2px 3px;
+}
+.demo-button:hover {
+  cursor: pointer;
+  color: black;
+  border: 2px solid black;
+  background-color: rgb(248, 244, 244);
+}
+.nav-link{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  backdrop-filter: brue(40px);
+  
+}
+.world-cont{
+  display: flex;
+  justify-content: center;
+ }
+.header-cont{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  font-weight: bold;
+  
 }
