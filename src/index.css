@@ -53,9 +53,29 @@ code {
   border: 1px solid black;
   width: 100%;
   height: 300px;
+  position: absolute;
+  /* z-index: ; */
 }
 .cont-back{
   /* object-fit: cover; */
   width: 100%;
   height: 100%;
+}
+.Main-Word-cont{
+  position: absolute;
+  color: wheat;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+.cont-for-body{
+  position: relative;
+}
+.org-word{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
